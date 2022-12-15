@@ -1,15 +1,16 @@
 {
   "expo": {
-    "name": "track-me",
+    "name": "Track Me",
     "slug": "track-me",
-    "version": "1.0.0",
+    "scheme": "com.trackme",
+    "version": "2.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./app/assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./app/assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#FFB03D"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,12 +23,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./app/assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.pratikdeshmukh2004.trackme"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./app/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "45098e58-df3f-4e18-8be7-cd201c94ac6f"
+      }
     }
   }
 }
